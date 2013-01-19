@@ -1,8 +1,12 @@
 <?php
 if( ! class_exists( 'WP_List_Table' ) ) {
-    require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
+	require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
 } // class_exists( 'WP_List_Table' )
 
 class WP_Logging_UI extends WP_List_Table{
+
+	function __construct(){
+
+	} // __construct
 
 } // WP_List_Table
